@@ -1,0 +1,205 @@
+/* ======================================== main setings ========================================= */
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+  font-size: 16px;
+  background-color: #ffffff;
+}
+
+.link {
+  text-decoration: none;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+/* ======================================== header ========================================= */
+.header-logo {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #4d5ae5;
+  line-height: 1.17;
+  text-decoration: none;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.header-weblogo {
+  font-family: 'Raleway', sans-serif;
+  color: #2e2f42;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.7;
+  text-decoration: none;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.header-page-nav .link {
+  color: #2e2f42;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+.header-page-nav .link:active,
+.header-page-nav .link:hover,
+.header-page-nav .link:focus {
+  color: #404bbf;
+}
+
+.contacts {
+  font-style: normal;
+}
+.contacts .link:hover,
+.contacts .link:focus {
+  color: #404bbf;
+}
+
+.contacts .link {
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+/* ======================================== hero ========================================= */
+
+.hero {
+  background-color: #2e2f42;
+}
+
+.hero-main-title {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  color: #ffffff;
+  text-align: center;
+  letter-spacing: 1.12px;
+}
+
+.hero-button {
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #ffffff;
+  background-color: #4d5ae5;
+  letter-spacing: 0.64px;
+  font-family: 'Roboto', sans-serif;
+}
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #404bbf;
+}
+
+/* ======================================== advantages ========================================= */
+
+.advantages-title {
+  color: #434455;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.4;
+  letter-spacing: 0.72px;
+}
+
+.advantages-subtitle {
+  color: #2e2f42;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+.advantages-text {
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+/* ======================================== team ========================================= */
+
+.team {
+  background-color: #f4f4fd;
+}
+
+.team-title {
+  color: #2e2f42;
+  text-align: center;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.11;
+  text-transform: capitalize;
+  letter-spacing: 0.72px;
+}
+
+.team-mans {
+  background-color: #ffffff;
+}
+
+.team-subtitle {
+  color: #2e2f42;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+
+.team-text {
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+/* ======================================== portfolio ========================================= */
+
+.portfolio-title {
+  color: #2e2f42;
+  text-align: center;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 1.111;
+  text-transform: capitalize;
+}
+.portfolio-subtitle {
+  color: #2e2f42;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+
+.portfolio-text {
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+/* ======================================== footer ========================================= */
+
+.footer {
+  background-color: #2e2f42;
+}
+
+.footer-logo {
+  font-family: 'Raleway', sans-serif;
+  color: #f4f4fd;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.7;
+  text-decoration: none;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.footer-text {
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  color: #f4f4fd;
+  background-color: #2e2f42;
+}
+
+/* ======================================== ??? ========================================= */
