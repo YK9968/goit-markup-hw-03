@@ -117,6 +117,8 @@ p {
 
 .hero {
   background-color: #2e2f42;
+  display: block;
+
 }
 
 .hero-main-title {
