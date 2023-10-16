@@ -128,6 +128,15 @@ p {
   color: #ffffff;
   text-align: center;
   letter-spacing: 1.12px;
+  padding-top: 188px;
+}
+
+.hero-wr {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 188px;
+  gap: 48px;
 }
 
 .hero-button {
@@ -139,6 +148,10 @@ p {
   background-color: #4d5ae5;
   letter-spacing: 0.64px;
   font-family: 'Roboto', sans-serif;
+  display: inline-block;
+  padding: 16px 32px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -168,6 +181,10 @@ p {
 .advantages-text {
   line-height: 1.5;
   letter-spacing: 0.32px;
+}
+
+.advantages-list {
+  margin-top: 120px;
 }
 
 /* ======================================== team ========================================= */
