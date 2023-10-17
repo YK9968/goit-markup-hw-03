@@ -211,7 +211,28 @@ p {
 
 .team {
   background-color: #f4f4fd;
-  
+}
+
+.team-list {
+  display: flex;
+  gap: 24px;
+  padding-bottom: 120px;
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
+Show 1 more color
+
+img
+Image · 2,000 x 2,722
+
+}
+
+.team-list-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 32px 0;
+  background-color: #ffffff;
 }
 
 .team-title {
