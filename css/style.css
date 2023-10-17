@@ -159,6 +159,18 @@ p {
 }
 
 /* ======================================== advantages ========================================= */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 
 .advantages-title {
   color: #434455;
@@ -177,6 +189,7 @@ p {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
+  margin-bottom: 8px;
 }
 .advantages-text {
   line-height: 1.5;
@@ -185,12 +198,20 @@ p {
 
 .advantages-list {
   margin-top: 120px;
+  display: flex;
+  gap: 24px;
+  margin-bottom: 120px;
+}
+
+.advantages-list-item {
+  width: calc((100%-72px) / 4);
 }
 
 /* ======================================== team ========================================= */
 
 .team {
   background-color: #f4f4fd;
+  
 }
 
 .team-title {
@@ -202,10 +223,8 @@ p {
   line-height: 1.11;
   text-transform: capitalize;
   letter-spacing: 0.72px;
-}
-
-.team-mans {
-  background-color: #ffffff;
+  padding-top: 120px;
+  padding-bottom: 72px;
 }
 
 .team-subtitle {
