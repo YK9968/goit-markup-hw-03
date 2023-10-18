@@ -42,6 +42,7 @@ p {
 /* ======================================== header ========================================= */
 .main-header {
   border-bottom: 1px solid #e7e9fc;
+  padding: 24px 0;
 }
 .header-wr {
   display: flex;
@@ -57,7 +58,6 @@ p {
   display: flex;
   margin-right: 332px;
   gap: 40px;
-  padding: 24px 0;
 }
 
 .contacts-wr {
