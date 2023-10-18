@@ -119,6 +119,10 @@ p {
 .hero {
   padding: 188px 0;
   background-color: #2e2f42;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
 }
 
 .hero-main-title {
@@ -129,13 +133,6 @@ p {
   text-align: center;
   letter-spacing: 1.12px;
   max-width: 496px;
-}
-
-.hero-wr {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 48px;
 }
 
 .hero-button {
