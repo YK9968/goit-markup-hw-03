@@ -225,7 +225,7 @@ p {
   display: flex;
   gap: 24px;
 }
-.first-man {
+.team-peopel {
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -306,6 +306,7 @@ p {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
+  margin-bottom: 8px;
 }
 
 .portfolio-text {
