@@ -128,7 +128,7 @@ p {
   color: #ffffff;
   text-align: center;
   letter-spacing: 1.12px;
-  padding-top: 188px;
+  padding: 188px 0;
 }
 
 .hero-wr {
