@@ -218,12 +218,12 @@ p {
 
 .team {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 
 .team-list {
   display: flex;
   gap: 24px;
-  padding-bottom: 120px;
 }
 
 .team-list-item {
@@ -246,7 +246,6 @@ p {
   line-height: 1.11;
   text-transform: capitalize;
   letter-spacing: 0.72px;
-  padding-top: 120px;
   padding-bottom: 72px;
 }
 
@@ -283,7 +282,6 @@ p {
   flex-wrap: wrap;
   gap: 24px;
   row-gap: 48px;
-  margin-bottom: 120px;
 }
 
 .portfolio-title {
@@ -295,7 +293,6 @@ p {
   line-height: 40px;
   letter-spacing: 1.111;
   text-transform: capitalize;
-  margin-top: 120px;
   margin-bottom: 72px;
 }
 .portfolio-subtitle {
@@ -310,6 +307,9 @@ p {
 .portfolio-text {
   line-height: 1.5;
   letter-spacing: 0.32px;
+}
+.portfolio {
+  padding: 120px 0;
 }
 
 /* ======================================== footer ========================================= */
