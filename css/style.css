@@ -202,14 +202,16 @@ p {
 }
 
 .advantages-list {
-  margin-top: 120px;
   display: flex;
   gap: 24px;
-  margin-bottom: 120px;
 }
 
 .advantages-list-item {
   width: calc((100%-72px) / 4);
+}
+
+.advantages {
+  padding: 120px 0;
 }
 
 /* ======================================== team ========================================= */
