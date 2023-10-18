@@ -51,13 +51,13 @@ p {
 .nav-wr {
   display: flex;
   align-items: center;
-  padding: 24px 0;
 }
 
 .header-page-nav {
   display: flex;
   margin-right: 332px;
   gap: 40px;
+  padding: 24px 0;
 }
 
 .contacts-wr {
@@ -74,6 +74,7 @@ p {
   text-decoration: none;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 .header-weblogo {
   font-family: 'Raleway', sans-serif;
@@ -84,7 +85,6 @@ p {
   text-decoration: none;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-right: 76px;
 }
 
 .header-page-nav .link {
