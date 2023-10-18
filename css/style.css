@@ -47,7 +47,7 @@ p {
   display: flex;
   align-items: center;
   padding: 24px 15px;
-  border-bottom: 1px solid #E7E9FC;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .nav-wr {
@@ -265,10 +265,10 @@ p {
   flex-direction: column;
   gap: 8px;
   padding: 32px 16px;
+  border: 1px solid #e7e9fc;
 }
 
 .portfolio-list-items {
-  border: 1px solid #e7e9fc;
   width: calc((100% - 48px) / 3);
 }
 
