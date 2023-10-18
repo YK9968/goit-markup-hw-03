@@ -57,7 +57,6 @@ p {
   display: flex;
   margin-right: 332px;
   gap: 40px;
-  padding: 24px 0;
 }
 
 .contacts-wr {
@@ -117,10 +116,6 @@ p {
 
 /* ======================================== hero ========================================= */
 
-.hero {
-  background-color: #2e2f42;
-}
-
 .hero-main-title {
   font-size: 56px;
   font-weight: 700;
@@ -128,15 +123,16 @@ p {
   color: #ffffff;
   text-align: center;
   letter-spacing: 1.12px;
-  padding: 188px 0;
+  max-width: 496px;
 }
 
 .hero-wr {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 188px;
   gap: 48px;
+  background-color: #2e2f42;
+  padding: 188px 0;
 }
 
 .hero-button {
@@ -151,6 +147,9 @@ p {
   display: inline-block;
   padding: 16px 32px;
   border-radius: 4px;
+  min-width: 169px;
+  height: 56px;
+  border: none;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 .hero-button:hover,
