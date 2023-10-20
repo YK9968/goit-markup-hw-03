@@ -51,11 +51,11 @@ p {
 .nav-wr {
   display: flex;
   align-items: center;
+  margin-right: auto;
 }
 
 .header-page-nav {
   display: flex;
-  margin-right: 332px;
   gap: 40px;
 }
 
@@ -230,10 +230,6 @@ p {
 }
 
 .team-list-item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 8px;
   padding: 32px 0;
   background-color: #ffffff;
 }
@@ -270,8 +266,6 @@ p {
 /* ======================================== portfolio ========================================= */
 
 .portfolio-list-items-text {
-  display: flex;
-  flex-direction: column;
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
@@ -309,7 +303,7 @@ p {
   margin-bottom: 8px;
 }
 
-.portfolio-text {
+.portfolio-text:not(:last-child) {
   line-height: 1.5;
   letter-spacing: 0.32px;
   margin-bottom: 8px;
@@ -327,6 +321,19 @@ p {
 
 .footer-logo {
   font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #4d5ae5;
+  line-height: 1.17;
+  text-decoration: none;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-right: 76px;
+  margin-bottom: 16px;
+}
+
+.footer-logo-span {
+  font-family: 'Raleway', sans-serif;
   color: #f4f4fd;
   font-size: 18px;
   font-weight: 700;
@@ -337,7 +344,6 @@ p {
 }
 .link-footer {
   display: inline-block;
-  margin-bottom: 16px;
 }
 
 .footer-text {
